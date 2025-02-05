@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Week1_Foundations.csproj",
-      "projectName": "Week1_Foundations",
-      "projectPath": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Week1_Foundations.csproj",
+      "projectUniqueName": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Course1_Foundations.csproj",
+      "projectName": "Course1_Foundations",
+      "projectPath": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Course1_Foundations.csproj",
       "packagesPath": "C:\\Users\\nickm\\.nuget\\packages\\",
       "outputPath": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
