@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\ConsoleApp1.csproj|d:\\onedrive\\programmingprojects\\courseramsft_fullstack\\testconsoleapp\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\Week1_Foundations.csproj|d:\\onedrive\\programmingprojects\\courseramsft_fullstack\\testconsoleapp\\consoleapp1\\module_3\\countvowels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\Week1_Foundations.csproj|solutionrelative:consoleapp1\\module_3\\countvowels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\Week1_Foundations.csproj|d:\\onedrive\\programmingprojects\\courseramsft_fullstack\\testconsoleapp\\consoleapp1\\module_3\\forloopexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\Week1_Foundations.csproj|solutionrelative:consoleapp1\\module_3\\forloopexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\Week1_Foundations.csproj|d:\\onedrive\\programmingprojects\\courseramsft_fullstack\\testconsoleapp\\consoleapp1\\week1_foundations.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{034313F2-9DE9-446C-BEAB-854CD9386655}|ConsoleApp1\\Week1_Foundations.csproj|solutionrelative:consoleapp1\\week1_foundations.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "countVowels.cs",
+              "DocumentMoniker": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Module_3\\countVowels.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Module_3\\countVowels.cs",
+              "ToolTip": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Module_3\\countVowels.cs",
+              "RelativeToolTip": "ConsoleApp1\\Module_3\\countVowels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:40:02.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "forLoopExample.cs",
+              "DocumentMoniker": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Module_3\\forLoopExample.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Module_3\\forLoopExample.cs",
+              "ToolTip": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Module_3\\forLoopExample.cs",
+              "RelativeToolTip": "ConsoleApp1\\Module_3\\forLoopExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:35:56.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Week1_Foundations.csproj",
+              "DocumentMoniker": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Week1_Foundations.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Week1_Foundations.csproj",
+              "ToolTip": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Week1_Foundations.csproj",
+              "RelativeToolTip": "ConsoleApp1\\Week1_Foundations.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T00:32:05.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\OneDrive\\ProgrammingProjects\\CourseraMSFT_FullStack\\TestConsoleApp\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:31:01.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
