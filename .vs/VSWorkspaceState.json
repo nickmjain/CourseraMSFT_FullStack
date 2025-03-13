@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TestConsoleApp",
+    "\\TestConsoleApp\\ConsoleApp1",
+    "\\TestConsoleApp\\ConsoleApp1\\Module4_BasicSyntax",
+    "\\TestConsoleApp\\ConsoleApp1\\Module5_Functions",
+    "\\TestConsoleApp\\ConsoleApp1\\Module6_Debugging"
+  ],
+  "SelectedNode": "\\TestConsoleApp\\ConsoleApp1\\Module6_Debugging\\GradeManagement.cs",
+  "PreviewInSolutionExplorer": false
+}

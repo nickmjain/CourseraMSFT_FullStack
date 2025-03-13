@@ -1,0 +1,54 @@
+# Visual Studio generated files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.cache
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+[Oo]bj/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+_ReSharper*/
+TestResults/
+packages/
+
+# NuGet Packages
+*.nupkg
+
+# User-specific files
+*.userprefs
+
+# Build results of website projects
+_PublishedWebsites/
+
+# Miscellaneous generated files
+*.bak
+*.tmp
+*.rpt
+*.log
+*.shd
+*.chm
+*.md5
+*.il
+*.pdb
+*.resources
+*.cache
+*.lastcodeanalysissucceeded
+
+# Unit test result files
+[Tt]est[Rr]esult*
+
+# Compiled source #
+*.dll
+*.exe
+*.out
+*.tlb
+*.swp
+
+#VS Code files if used.
+.vscode/
