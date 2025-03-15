@@ -13,7 +13,7 @@ class TaskManager {
 			Console.WriteLine("4. Exit");
 
 			string choice = Console.ReadLine();
-			switch (chocie)
+			switch (choice)
 			{
 				case "1":
 					AddTask();
