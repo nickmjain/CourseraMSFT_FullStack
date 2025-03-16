@@ -14,7 +14,7 @@ header {
     padding: 20px;
 }
 
-nav ul::after {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -27,4 +27,27 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction:column;
+
+    }
+    aside {
+        width: 100%;
+        margin-top:20px;
+    }
+    body {
+        font-size: 1.2em;
+    }
+}
+
+@keyframes slid {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(20px);
+    }
 }
