@@ -28,10 +28,9 @@ namespace Course2_IntrotoCSharp.Module3
     public class Spa : Pool
     {
         public int heatLevel; // note we're not re-declaring the chrloineLevel and waterLevel variables, because we're inheriting those from the parent class
-        public Spa(int chlorine, int water, int heat)
+        public Spa(int chlorine, int water, int heat) :base (chlorine, water)
         {
-            chlorineLevel = chlorine;
-            waterLevel = water;
+           
             heatLevel = heat;
 
         }
