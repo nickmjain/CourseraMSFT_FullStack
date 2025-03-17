@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript test page</title>
+</head>
+<body>
+    <h1>Simple javascript code to affect HTML</h1>
+    <!-- Content goes here -->
+    <!--Example of inline javascript-->
+    <script>console.log("Hello world in line in HTML");</script>
+
+    <!--Example button that uses external JS to change color of button from base red to blue after click and back again-->
+    <button id="buttonSimpleColorChange" onclick="changeColor()" style="background-color: red;">Button actions implemented using function</button>
+    <br />
+    <br />
+
+    <!--Button 2 that uses an event listener javascript code-->
+    <button id="buttonEventListener" style="background-color: greenyellow;">Button actions implemented using event listener</button>
+    <br />
+    <br />
+
+    <!--Button 3 adds a new paragraph after this button -->
+    <button id="button3" style="background-color: orangered;">Add new paragraph</button>
+    <br />
+    <br />
+
+    <!--Async button testing-->
+    <button id="button4" style="background-color: deepskyblue;">This button tests async features</button>
+    <div id="data-container"></div>
+    <script src="script.js"></script>
+    <script src="async.js"></script>
+</body>
+</html>
