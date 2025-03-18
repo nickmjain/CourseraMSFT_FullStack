@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="Module3_JS\" />
+    <Folder Include="Module5\" />
   </ItemGroup>
 
 </Project>
