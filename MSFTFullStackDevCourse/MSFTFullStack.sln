@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{02EA681E-C
 		Course3_IntrotoWebDev\Module5\index.html = Course3_IntrotoWebDev\Module5\index.html
 		Course3_IntrotoWebDev\Module5\script.js = Course3_IntrotoWebDev\Module5\script.js
 		Course3_IntrotoWebDev\Module5\styles.css = Course3_IntrotoWebDev\Module5\styles.css
+		tempo.html = tempo.html
 	EndProjectSection
 EndProject
 Global
