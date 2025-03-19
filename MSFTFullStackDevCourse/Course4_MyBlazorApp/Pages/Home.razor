@@ -1,0 +1,30 @@
+﻿@page "/"
+
+<PageTitle>Home Page 2  </PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button @onclick="OnClick">Click me</button>
+
+@code {
+    private void OnClick()
+    {
+        // Set a breakpoint here
+        Console.WriteLine("Button clicked");
+    }
+}
+
+
+@code {
+    [Inject]
+    private ApiService ApiService { get; set; }
+
+    protected override void OnInitialized()
+    {
+        ApiService.RunLoop();
+    }
+}
+
+
