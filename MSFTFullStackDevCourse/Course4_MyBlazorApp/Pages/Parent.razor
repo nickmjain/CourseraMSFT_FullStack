@@ -1,0 +1,17 @@
+﻿@page "/parent"
+
+<div>
+    <ChildButtonComponent ButtonText="Click Me!" OnButtonClicked="HandleButtonClick" />
+
+    <p>Message from child: @messageFromChild</p>
+</div>
+
+@code {
+    private string messageFromChild = "";
+
+    private void HandleButtonClick(string message)
+    {
+        messageFromChild = message;
+        Console.WriteLine($"Message from child: {message}");
+    }
+}

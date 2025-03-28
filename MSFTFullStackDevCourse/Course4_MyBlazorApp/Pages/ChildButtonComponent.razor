@@ -1,0 +1,15 @@
+﻿@code {
+    [Parameter]
+    public string ButtonText { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnButtonClicked { get; set; }
+
+    private async Task ButtonClicked()
+    {
+        string message = $"Button '{ButtonText}' was clicked!";
+        await OnButtonClicked.InvokeAsync(message);
+    }
+}
+
+<button @onclick="ButtonClicked">@ButtonText</button>

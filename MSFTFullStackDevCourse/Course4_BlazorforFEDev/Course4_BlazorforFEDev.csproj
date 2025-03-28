@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Module2_ParamPassing\" />
+  </ItemGroup>
+
 </Project>

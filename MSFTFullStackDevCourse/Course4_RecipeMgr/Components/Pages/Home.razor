@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+
+@code {
+	private List<Recipe> recipes = new()
+	{
+		new Recipe {Id = 1,
+			Name = "Spaghetti Bolognese",
+			Description = " Classic Italian Pasta dish"},
+		new Recipe {Id = 2,
+			Name = "Chicken Curry",
+			Description = "Flavorful Indian curry"
+		}
+	};
+
+	private Recipe selectedRecipe;
+
+	private void SelectRecipe(Recipe recipe)
+	{
+		selectedRecipe = recipe;
+	}
+}

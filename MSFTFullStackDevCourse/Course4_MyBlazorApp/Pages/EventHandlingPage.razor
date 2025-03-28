@@ -1,0 +1,19 @@
+﻿@page "/eventHandlingPage"
+
+<h3>eventHandlingPage</h3>
+
+<button @onclick="AddToCart">Add to cart</button>
+
+<input @oninput="UpdateSearch" placeholder="Search for products..."/>
+<p>You searched for: @searchQuery</p>
+
+<div class="p-4 border rounded">
+
+    <p @onmouseover="ShowProductDetails">Hover over the product</p>
+
+</div>
+<p>@productDetails</p>
+
+@code {
+
+}

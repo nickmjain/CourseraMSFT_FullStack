@@ -1,0 +1,36 @@
+﻿@page "/recipe/{RecipeId:int}"
+
+<h1>Recipe Detail</h1>
+
+@code {
+	[Parameter]
+	public int RecipeId { get; set; }
+
+	private Recipe selectedRecipe;
+
+	protected override void OnParametersSet()
+	{
+		selectedRecipe = recipes.FirstOrDefault(r => r.Id == RecipeId);
+
+		if (selectedRecipe == null)
+		{
+			Console.WriteLine("Recipe not found");
+		}
+	}
+
+	private List<Recipe> recipes = new()
+	{
+		new Recipe {Id = 1, Name = "Spaghetti Bolognese", Description = "Classic Italian Pasta dish"},
+		new Recipe {Id = 2, Name = "Chicken Curry", Description = "Flavorful Indian curry"}
+	};
+}
+
+@if (selectedRecipe != null)
+{
+	<h3>@selectedRecipe.Name</h3>
+	<h3>@selectedRecipe.Description</h3>
+}
+else
+{
+	<p> Recipe not found!</p>
+}
