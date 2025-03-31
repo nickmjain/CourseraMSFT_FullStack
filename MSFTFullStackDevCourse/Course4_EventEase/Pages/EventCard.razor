@@ -1,0 +1,55 @@
+﻿@using EventEase.Models
+
+<div class="event-card">
+    @if (localEvent != null)
+    {
+        <h3>
+            <input type="text" @bind="localEvent.Name" />
+        </h3>
+        <p>
+            Date: <input type="date" @bind="localEvent.Date" />
+        </p>
+        <p>
+            Location: <input type="text" @bind="localEvent.Location" />
+        </p>
+        <button @onclick="OnEventChanged">Update</button>
+    }
+    else
+    {
+        <p>Event data is missing.</p>
+    }
+</div>
+
+@code {
+    private Event localEvent;
+
+    [Parameter]
+    public Event EventData { get; set; }
+
+    [Parameter]
+    public EventCallback<Event> EventChanged { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        // Ensure localEvent is a copy of EventData (not a reference)
+        localEvent = new Event
+            {
+                Name = EventData?.Name,
+                Date = EventData?.Date ?? DateTime.Today,
+                Location = EventData?.Location
+            };
+    }
+
+    private async Task OnEventChanged()
+    {
+        // Update the original EventData before invoking the callback
+        EventData.Name = localEvent.Name;
+        EventData.Date = localEvent.Date;
+        EventData.Location = localEvent.Location;
+
+        if (EventChanged.HasDelegate)
+        {
+            await EventChanged.InvokeAsync(EventData);
+        }
+    }
+}

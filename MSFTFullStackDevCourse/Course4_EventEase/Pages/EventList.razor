@@ -1,0 +1,28 @@
+﻿@page "/EventList"
+@using EventEase.Models
+
+<h1>Upcoming Events</h1>
+
+@foreach (var eventItem in events)
+{
+    <EventCard EventData="@eventItem" EventChanged="@(e => OnEventUpdated(e))" />
+
+}
+
+@code {
+    private List<Event> events = new List<Event>
+    {
+        new Event { Name = "Tech Conference", Date = new DateTime(2024, 11, 15), Location = "New York City" },
+        new Event { Name = "Music Festival", Date = new DateTime(2024, 12, 10), Location = "Los Angeles" },
+        new Event { Name = "Art Exhibition", Date = new DateTime(2025, 01, 20), Location = "Chicago" }
+    };
+
+    private void OnEventUpdated(Event updatedEvent)
+    {
+        var index = events.FindIndex(e => e.Name == updatedEvent.Name);
+        if (index != -1)
+        {
+        events[index] = updatedEvent;
+        }
+    }
+}

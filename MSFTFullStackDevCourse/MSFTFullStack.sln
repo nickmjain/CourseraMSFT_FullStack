@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course4_RecipeMgr", "Course
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course4_StateMgmtandFormsApp", "Course4_StateMgmtandFormsApp\Course4_StateMgmtandFormsApp.csproj", "{A7434439-963C-B07E-AB4C-AA0A3A5864F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course4_EventEase", "Course4_EventEase\Course4_EventEase.csproj", "{1B81B1C7-8872-56D7-B48B-C164747BE960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{A7434439-963C-B07E-AB4C-AA0A3A5864F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7434439-963C-B07E-AB4C-AA0A3A5864F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7434439-963C-B07E-AB4C-AA0A3A5864F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B81B1C7-8872-56D7-B48B-C164747BE960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B81B1C7-8872-56D7-B48B-C164747BE960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B81B1C7-8872-56D7-B48B-C164747BE960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B81B1C7-8872-56D7-B48B-C164747BE960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

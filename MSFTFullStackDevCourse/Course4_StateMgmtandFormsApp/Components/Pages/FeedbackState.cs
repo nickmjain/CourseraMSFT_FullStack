@@ -2,7 +2,6 @@
 using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.JSInterop;
-using System.ComponentModel.DataAnnotations;
 
 namespace Course4_StateMgmtandFormsApp.Components.Pages
 {
