@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Course6_DatabaseIntegration
+namespace Course6_DatabaseIntegration.Models
 {
     public  class Employee
     {

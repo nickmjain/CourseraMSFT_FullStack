@@ -15,7 +15,7 @@ namespace Course6_DatabaseIntegration.Models
 
         [Required]
         [StringLength(50)]
-        public string DepartmentName { get; set; }
+        public string Name { get; set; }
 
         // Navigation property to Employees
         public virtual ICollection<Employee> Employees { get; set; }

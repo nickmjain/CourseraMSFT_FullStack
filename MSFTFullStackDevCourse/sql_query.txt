@@ -1,0 +1,64 @@
+# Assignment 1A
+
+SELECT
+    ProductName,
+    Category,
+    Price,
+    StockLevel
+FROM
+    Products;
+
+# Assignment 1B
+
+-- Retrieve products in a specific category (e.g., 'Electronics')
+SELECT
+    ProductName,
+    Category,
+    Price,
+    StockLevel
+FROM
+    Products
+WHERE
+    Category = 'Electronics';
+
+-- Retrieve products with low stock levels (e.g., StockLevel less than 50)
+SELECT
+    ProductName,
+    Category,
+    Price,
+    StockLevel
+FROM
+    Products
+WHERE
+    StockLevel < 50;
+
+# Assignment 2A
+SELECT
+    p.ProductName,
+    s.SaleDate,
+    st.StoreLocation,
+    sl.UnitsSold
+FROM
+    Products AS p
+JOIN
+    Sales AS sl ON p.ProductID = sl.ProductID
+JOIN
+    Stores AS st ON sl.StoreID = st.StoreID;
+
+# Assignment 2B
+-- Calculate total sales for each product
+SELECT
+    p.ProductName,
+    SUM(sl.UnitsSold * p.Price) AS TotalSales
+FROM
+    Products AS p
+JOIN
+    Sales AS sl ON p.ProductID = sl.ProductID
+GROUP BY
+    p.ProductName
+ORDER BY
+    TotalSales DESC;
+
+# Assignment 3A
+
+

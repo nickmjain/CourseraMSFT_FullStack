@@ -1,33 +1,38 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Course6_DatabaseIntegration;
+using Course6_DatabaseIntegration.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Reflection.Emit;
+
+
 Console.WriteLine("Hello, World!");
 
-public class YourDbContext : DbContext
-{
-    public YourDbContext(DbContextOptions<YourDbContext> options) : base(options)
+var context = new CompanyContext();
+
+var department = new Department { Name = "Engineering" };
+context.Departments.Add(
+    new Department
     {
+        Name = "Engineering",
+        Employees = new List<Employee>
+        {
+            new Employee
+            {
+                FirstName = "Marissa",
+                LastName = "Johannsen",
+                HireDate = DateTime.Now,
+            },
+            new Employee
+            {
+                FirstName = "Ryan",
+                LastName = "Ford",
+                HireDate = DateTime.Now,
+            },
+        },
     }
+    );
+context.SaveChanges();
 
-    public DbSet<Employee> Employees { get; set; }
-    public DbSet<Department> Departments { get; set; }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        // Fluent API Configuration Example:
-
-        // Make LastName required using Fluent API
-        modelBuilder.Entity<Employee>()
-            .Property(e => e.LastName)
-            .IsRequired()
-            .HasMaxLength(50); // Redundant here as Data Annotation already set it, but shows the syntax
-
-        // Define a one-to-many relationship between Department and Employee using Fluent API
-        modelBuilder.Entity<Employee>()
-            .HasOne(e => e.Department)
-            .WithMany(d => d.Employees)
-            .HasForeignKey(e => e.DepartmentID);
-
-        // You can add more Fluent API configurations here
-
-        base.OnModelCreating(modelBuilder);
-    }
-}
+var employees = context.Employees.Where(e => e.Department.Name == "Engineering").ToList();
+Console.WriteLine($"Employees in Engineering Department: {employees.Count}");
